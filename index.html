@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <!It is a link to use bootstrap in our web page.>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">   <!This link is used to give the font which we used from "font-google".>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon1.ico">
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>  <!This link is used to use the icon within the button.>
+
+       <! It is some links of javascript and by using these when we minimize the size of webpage and then click on toggler then it will show the contents inside it.>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">  <!nav is like div and these classes are of bootstrap.>
+            <a class="navbar-brand" href="">TinDog</a>  <!It will give you the brand name on LHS of the webpage.>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>    <!button is used to give a small box shown when we minimize the webpage.>
+
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                   <a class="nav-link " href="#footer">Contact</a>
+               </li>
+                <li class="nav-item">
+                   <a class="nav-link " href="#pricing">Pricing</a>
+               </li>
+                <li class="nav-item">
+                   <a class="nav-link " href="#cta">Download</a>  <!here,"btn" and "btn-#" are the bootstrap classes and the # are the different colors.>
+               </li>
+           </ul>
+         </div>  <!Inside this div,these are the links given on our web page.>
+       </nav>
+
+  <!--------------------------FOR ANY Detail visit "BOOTSTRAP.COM"--------------------------------------->
+
+<div class="container-fluid">   <!Here,container class will give the text some type of padding.>
+    <!-- Title -->
+<div class="row">
+    <div class="col-lg-6 col-sm-12">    <!This class will display two items together on "large" screen and one item on small screen.>
+      <h1 class="h1">Meet new and interesting dogs nearby.</h1>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>  <!Here,class="fab fa-apple" will give the icon of apple along with download and to use this class in our webpage we give a link in head section.We copy the icon from "fontawesome.com" and instead of using i here we can use span tag also.but here i is used because according to fontawesome "i" tag is not used frequently in HTML.>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <img class="iphone-img " src="images/iphone6.png" alt="iphone-mockup">
+    </div>
+</div>
+</div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+<div class="row">
+  <div class="col-md-4 padding">
+    <i class="icon fas fa-check-circle fa-4x"></i>  <! Here,"fa-4x" will increase the size of the icon.>
+    <h3>Easy to use.</h3>
+    <p>So easy to use, even your dog could do it.</p>
+  </div>
+  <div class="col-md-4 padding">   <!"col-md-4" class is used so the display will change when we open it in tablet or mobile.>
+    <i class="icon fas fa-bullseye fa-4x"></i>
+    <h3>Elite Clientele</h3>
+    <p>We have all the dogs, the greatest dogs.</p>
+  </div>
+  <div class="col-md-4 padding">
+    <i class="icon fas fa-heart fa-4x"></i>
+    <h3>Guaranteed to work.</h3>
+    <p>Find the love of your dog's life or your money back.</p>
+  </div>
+</div>
+  </section>
+
+
+  <!-- Testimonials -->
+ <! SEE vedio of carousel,vedio number-64>
+  <section id="testimonials">
+
+    <div id="carousel-testimonial" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="h2-testimonial">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="image"src="images/dog-img.jpg" alt="dog-profile">
+          <em>Buzzo, New Delhi</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="h2-testimonial">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-testimonial" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-testimonial" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+
+    <img class="press-img"src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+     <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6">
+    <div class="card border-primary ">
+      <div class="card-header">
+        <h3>Chihuahua</h3>
+      </div>
+      <div class="card-body text-primary">
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="btn btn-outline-primary btn-lg btn-block">Sign Up</button>
+      </div>
+     </div>
+  </div>
+
+
+<div class="col-lg-4 col-md-6">
+  <div class="card border-warning">
+    <div class="card-header">
+      <h3>Labrador</h3>
+    </div>
+    <div class="card-body text-warning">
+      <h2>$49 / mo</h2>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-warning btn-lg btn-block">Sign Up</button>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 ">
+  <div class="card border-success">
+    <div class="card-header">
+      <h3>Mastiff</h3>
+    </div>
+    <div class="card-body text-success">
+      <h2>$99 / mo</h2>
+      <p>Pirority Listing</p>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-success btn-lg btn-block">Sign Up</button>
+  </div>
+  </div>
+</div>
+
+</div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="h3">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-lg btn-dark button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-light button"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <a href="www.twitter.com"><i class="fab fa-twitter link"></i></a>
+    <a href="www.facebook.com"><i class="fab fa-facebook-f link"></i></a>
+    <a href="www.instagram.com"><i class="fab fa-instagram link"></i></a>
+    <a href="www.envelope.com"><i class="fas fa-envelope link"></i></a>
+    <p class="p">© Copyright 2019 TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>

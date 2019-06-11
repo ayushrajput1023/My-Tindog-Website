@@ -1,0 +1,186 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+p{
+  color: grey;
+  font-size: 13px;
+}
+
+
+.h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.container-fluid{
+  padding:3% 8%;
+}
+
+#title{
+  background-color: orange;
+  color:#fff;
+}
+
+/*__Navigation Bar__*/
+.row{
+  padding-top: 4.5rem;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download-buttons*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/*Title Image*/
+.iphone-img{
+  width: 50%;
+  transform: rotate(20deg);  /*This will rotate the image at 20 degree.*/
+  position:absolute;
+  right: 20%;
+}
+
+/* ___Features____ */
+
+
+
+.padding{
+text-align: center;
+padding: 5%;
+
+}
+
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;  /* "Z-Index" is used to hide one part behind the other like in iphone-image.Here,"Z-index" will only work if the element is positioned.Every element has "Z-Index" = 0 (this is by default), 1(element is on top of other element), -1(element is on behind the other element)*/
+}              /* For more about z-index then download the table from resourses or watch vedio 66.*/
+
+.icon{
+  color:orange;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: yellow;
+}
+
+
+/* testimonials*/
+
+#testimonials{
+  background-color:orange;
+  text-align: center;
+
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 5% 10%;
+}
+
+.image{
+  height: 15%;
+  width: 15%;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+/* press */
+#press{
+    background-color:orange;
+    text-align: center;
+}
+
+.press-img{
+  width: 15%;
+  padding-bottom: 3%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+/* Media Query is a advanced CSS element or tag.Anything within the media block will work when the condition is true given in the () brackets.Using media query we make our website responsive without using bootstrap.*/
+@media (max-width:991px){
+
+  #title{
+    text-align: center;
+  }
+   .iphone-img{
+     position: static;
+     transform: none;
+   }
+
+}
+
+  /* Call to Action*/
+
+  #cta{
+    background-color: orange;
+    text-align: center;
+      padding: 8% 5%;
+  }
+
+.h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  padding: 8% 5%;
+}
+
+.button{
+  margin-bottom: 5%;
+  margin-left: 4%;
+}
+
+
+/* Foooter*/
+
+#footer{
+  text-align: center;
+  font-weight: bold;
+  padding: 10%;
+}
+
+.p{
+  font-size: 15px;
+  padding-top: 15px;
+}
+.link{
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
